@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>My test page</title>
+ </head>
+ <body>
+<h1>Rellena nuestro formulario</h1>
+   <form method="post" action="miservidor.php">
+<div>
+  <label for="codigopostal">Código postal:</label>
+  <input id="codigopostal" name="codigopostal" type="text" pattern="[0-9]*">
+</div>
+<div>
+  <label for="satisfaction">Nivel de satisfacción con el producto:</label>
+  <select id="satisfaction">
+       <option value=”1”>1</option><option value=”2”>2</option>
+      <option value="3">3</option><option value="4">4</option>
+      <option value="5">5</option>
+
+  </select>
+</div>
+<div>
+  <label for="email">Email del usuario:</label>
+  <input id="email" name="email" type="text">
+</div>
+<div>
+
+  <div>
+    <label for="positivo">Puntos positivos:</label>
+    <input id="positivo" name="positivo" type="text">
+  </div>
+  <div>
+
+    <div>
+      <label for="negativo">Puntos Negativos:</label>
+      <input id="negativo" name="negativo" type="text">
+    </div>
+    <div>
+<p>VALORA LAS CARACTERISTICAS</p>
+      <div><br>
+          <label for="Precio">Precio:</label><br>
+          <input name="Precio" type="radio" value="excelente"> Excelente<br>
+          <input name="Precio" type="radio" value="bueno"> bueno<br>
+          <input name="Precio" type="radio" value="regular"> regular<br>
+          <input name="Precio" type="radio" value="pésimo"> pésimo<br>
+      </div>
+
+      <div><br>
+          <label for="autonomia">Autonomia bateria:</label><br>
+          <input name="autonomia" type="radio" value="excelente"> Excelente<br>
+          <input name="autonomia" type="radio" value="bueno"> bueno<br>
+          <input name="autonomia" type="radio" value="regular"> regular<br>
+          <input name="autonomia" type="radio" value="pésimo"> pésimo<br>
+      </div>
+
+      <div><br>
+          <label for="time">Tiempos de entrega:</label><br>
+          <input name="time" type="radio" value="excelente">Excelente<br>
+          <input name="time" type="radio" value="bueno">bueno<br>
+          <input name="time" type="radio" value="regular">regular<br>
+          <input name="time" type="radio" value="pésimo">pésimo<br>
+      </div>
+
+      <div><br>
+          <label for="att">Atención comercial:</label><br>
+          <input name="att" type="radio" value="excelente">Excelente<br>
+          <input name="att" type="radio" value="bueno">bueno<br>
+          <input name="att" type="radio" value="regular">regular<br>
+          <input name="att" type="radio" value="pésimo">pésimo<br>
+      </div>
+
+
+<br><br>
+   <input type="submit" value="Enviar"> <br><br>
+   </form>
+
+
+   <h1>Rellena nuestro formulario (opcion 2)</h1>
+      <form method="post" action="miservidor.php">
+   <div>
+     <label for="codigopostal">Código postal:</label>
+     <input id="codigopostal" name="codigopostal" type="text" pattern="[0-9]*">
+   </div>
+   <div>
+     <label for="satisfaction">Nivel de satisfacción con el producto:</label>
+     <select id="satisfaction">
+          <option value=”1”>1</option><option value=”2”>2</option>
+         <option value="3">3</option><option value="4">4</option>
+         <option value="5">5</option>
+
+     </select>
+   </div>
+   <div>
+     <label for="email">Email del usuario:</label>
+     <input id="email" name="email" type="text">
+   </div>
+   <div>
+
+     <div>
+       <label for="positivo">Puntos positivos:</label>
+       <input id="positivo" name="positivo" type="text">
+     </div>
+     <div>
+
+       <div>
+         <label for="negativo">Puntos Negativos:</label>
+         <input id="negativo" name="negativo" type="text">
+       </div>
+       <div>
+   <p>VALORA LAS CARACTERISTICAS</p>
+         <div>
+             <label for="Precio">Precio:</label><br>
+             <select id="Precio">
+             <option value="excelente">Excelente</option>
+             <option value="bueno">bueno</option>
+             <option value="regular">regular</option>
+             <option value="pésimo">pésimo</option>
+           </select>
+         </div>
+         <div>
+             <label for="autonomia">Precio:</label><br>
+             <select id="autonomia">
+             <option value="excelente">Excelente</option>
+             <option value="bueno">bueno</option>
+             <option value="regular">regular</option>
+             <option value="pésimo">pésimo</option>
+           </select>
+         </div>
+         <div>
+             <label for="time">Tiempos de entrega:</label><br>
+             <select id="time">
+             <option value="excelente">Excelente</option>
+             <option value="bueno">bueno</option>
+             <option value="regular">regular</option>
+             <option value="pésimo">pésimo</option>
+           </select>
+         </div>
+         <div>
+             <label for="att">Atención comercial:</label><br>
+             <select id="att">
+             <option value="excelente">Excelente</option>
+             <option value="bueno">bueno</option>
+             <option value="regular">regular</option>
+             <option value="pésimo">pésimo</option>
+           </select>
+         </div>
+
+
+   <br><br>
+   <input type="submit" value="Enviar"> <br><br>
+      </form>
+
+ </body>
+</html>
